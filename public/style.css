@@ -13,7 +13,7 @@
     width: 100vw;
     z-index: 1;
     display flex;
-    float:left;
+    float: left;
   }
 nav {background-color:rgb(218, 149, 141);
   padding: 2em;
@@ -22,7 +22,6 @@ nav {background-color:rgb(218, 149, 141);
 }
 nav h2 {
   margin: 0;
-  a
 }
 
 .places {
@@ -39,7 +38,7 @@ nav h2 {
   .itinerary {
     background-color: rgb(58, 189, 149);
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     bottom: 0;
     height: 40%;
     width: 38%;
@@ -50,3 +49,9 @@ nav h2 {
   .itinerary h2 {
     background-color: rgb(244, 142, 7);
     padding : .5em;
+  }
+  .button {
+  background-color: pink;
+  color: white;
+  font-size: 18px;
+  }
